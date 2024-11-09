@@ -30,10 +30,11 @@
 }
 .navbar ul li a {
   text-decoration: none;
+  padding-bottom: 5px;
 }
 
 .navbar ul li a:hover {
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   border-bottom: 2px solid #fff;
 }
 
@@ -87,4 +88,15 @@
   75% {
     background-image: url("./images/Shrishti_AluTech/ST\ company-images-3.jpg");
   }
+}
+
+.image_container {
+  display: flex;
+}
+
+.image_container img {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 83px;
 }
